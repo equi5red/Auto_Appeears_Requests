@@ -119,8 +119,8 @@ time.sleep(2)
 
 # Path to shapefile
 working_directory = os.getcwd()
-file_path = working_directory + "Switzerland_Shapefile_Data.zip"
-shapefile_path = "Switzerland_Shapefile_Data.zip"
+file_path = working_directory + "ca-state-boundary.zip"
+shapefile_path = "ca-state-boundary.zip"
 shapefile_path = os.path.join(working_directory,shapefile_path)
 # Inputs the required shapefile, make sure to change path
 
