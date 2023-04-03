@@ -138,7 +138,7 @@ time.sleep(1)
 
 # Finds the desired projection
 projection = driver.find_element(By.ID, "projection")
-projection.send_keys("Geographic")
+projection.send_keys("Native")
 time.sleep(1)
 
 # Clicks on the desired projection, and adds it
